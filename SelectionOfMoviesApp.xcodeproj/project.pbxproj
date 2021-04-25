@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6ACBCC312634734C009B080D /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBCC302634734C009B080D /* Parameter.swift */; };
+		6ACBCC3A2635C09B009B080D /* LogicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBCC392635C09B009B080D /* LogicViewController.swift */; };
 		FAAA1AE026346194002E4CBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA1ADF26346194002E4CBE /* AppDelegate.swift */; };
 		FAAA1AE226346194002E4CBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA1AE126346194002E4CBE /* SceneDelegate.swift */; };
 		FAAA1AE426346194002E4CBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAA1AE326346194002E4CBE /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		6ACBCC302634734C009B080D /* Parameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameter.swift; sourceTree = "<group>"; };
+		6ACBCC392635C09B009B080D /* LogicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicViewController.swift; sourceTree = "<group>"; };
 		FAAA1ADC26346194002E4CBE /* SelectionOfMoviesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectionOfMoviesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAA1ADF26346194002E4CBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAAA1AE126346194002E4CBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,16 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		6ACBCC372635C06A009B080D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA1AF426346E22002E4CBE /* MovieListViewController.swift */,
+				FAAA1AE326346194002E4CBE /* ViewController.swift */,
+				6ACBCC392635C09B009B080D /* LogicViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		FAAA1AD326346194002E4CBE = {
 			isa = PBXGroup;
 			children = (
@@ -71,9 +83,8 @@
 				6ACBCC2A263472D8009B080D /* Models */,
 				FAAA1ADF26346194002E4CBE /* AppDelegate.swift */,
 				FAAA1AE126346194002E4CBE /* SceneDelegate.swift */,
-				FAAA1AE326346194002E4CBE /* ViewController.swift */,
+				6ACBCC372635C06A009B080D /* ViewControllers */,
 				FAAA1AE526346194002E4CBE /* Main.storyboard */,
-				FAAA1AF426346E22002E4CBE /* MovieListViewController.swift */,
 				FAAA1AE826346194002E4CBE /* Assets.xcassets */,
 				FAAA1AEA26346194002E4CBE /* LaunchScreen.storyboard */,
 				FAAA1AED26346194002E4CBE /* Info.plist */,
@@ -152,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAAA1AE426346194002E4CBE /* ViewController.swift in Sources */,
+				6ACBCC3A2635C09B009B080D /* LogicViewController.swift in Sources */,
 				FAAA1AE026346194002E4CBE /* AppDelegate.swift in Sources */,
 				FAAA1AE226346194002E4CBE /* SceneDelegate.swift in Sources */,
 				6ACBCC312634734C009B080D /* Parameter.swift in Sources */,
