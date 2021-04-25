@@ -22,8 +22,13 @@ class LogicViewController: UIViewController {
     
     
     // MARK: - Navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-
-    }
-
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//
+//    }
+}
+extension LogicViewController {
+    // private func setupUI() {
+//    for stack in [arrayStack]
+//    stack.isHidden = .true
+//}
 }

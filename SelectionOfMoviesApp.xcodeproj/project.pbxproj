@@ -61,6 +61,15 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		6ACBCC3F2635F564009B080D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA1AE526346194002E4CBE /* Main.storyboard */,
+				FAAA1AEA26346194002E4CBE /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		FAAA1AD326346194002E4CBE = {
 			isa = PBXGroup;
 			children = (
@@ -84,9 +93,8 @@
 				FAAA1ADF26346194002E4CBE /* AppDelegate.swift */,
 				FAAA1AE126346194002E4CBE /* SceneDelegate.swift */,
 				6ACBCC372635C06A009B080D /* ViewControllers */,
-				FAAA1AE526346194002E4CBE /* Main.storyboard */,
+				6ACBCC3F2635F564009B080D /* Storyboards */,
 				FAAA1AE826346194002E4CBE /* Assets.xcassets */,
-				FAAA1AEA26346194002E4CBE /* LaunchScreen.storyboard */,
 				FAAA1AED26346194002E4CBE /* Info.plist */,
 			);
 			path = SelectionOfMoviesApp;
