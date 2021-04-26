@@ -5,6 +5,16 @@
 //  Created by Larisa on 24.04.2021.
 //
 
+struct Answer {
+    let genre: Genre
+    let years: Years
+    let rating: Rating
+//    static func getAnswer() -> [Answer] {
+//        let answer: [Answer] = []
+//        return answer
+//    }
+}
+
 struct Film {
     let name: String
     let description: String
