@@ -45,9 +45,6 @@ extension LogicViewController {
      }
     
     private func showScreen(for label: [UILabel]) {
-        for print in label {
-            
-        }
     }
     
     private func showChooseGenre() {
